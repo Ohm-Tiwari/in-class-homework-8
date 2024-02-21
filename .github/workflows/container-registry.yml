@@ -33,6 +33,7 @@ jobs:
           reporter: java-junit
           fail-on-error: true
 
+
       - name: Build and push the image
         run: |
           docker login --username hbahramian --password ${{secrets.ACCESS_TOKEN}} ghcr.io
