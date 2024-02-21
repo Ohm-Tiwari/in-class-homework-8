@@ -37,6 +37,6 @@ jobs:
       - name: Build and push the image
         run: |
           docker login --username ohmtiwari --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/ohmtiwari/ducks-service-master:latest --file Dockerfile .  
-          docker push ghcr.io/ohmtiwari/ducks-service-master:latest 
+          docker build -t ghcr.io/ohm-tiwari/ducks-service-master:latest --file Dockerfile .  
+          docker push ghcr.io/ohm-tiwari/ducks-service-master:latest 
 
