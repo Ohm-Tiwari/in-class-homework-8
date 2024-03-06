@@ -33,6 +33,8 @@ public class DuckController {
        }
    }
 
+
+
     @GetMapping
     public List<DuckData> findAll() {
         try {
